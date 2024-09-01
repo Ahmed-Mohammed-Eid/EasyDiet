@@ -1,0 +1,130 @@
+.MySubscription {
+  position: relative;
+  margin-bottom: 4rem;
+  width: 100%;
+  background-color: var(--color-white-background);
+  border: 1px solid var(--color-dashboard-border);
+  padding: 2rem 4rem;
+
+  &:before {
+    content: attr(data-title);
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: var(--font-montserrat);
+    font-weight: 400;
+    background: -webkit-linear-gradient(170deg, var(--color-main), var(--color-black-text));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 20px;
+    transform: rotate(-45deg) translate(-2rem, -2rem);
+  }
+
+  button.Packages {
+    display: inline-block;
+    margin-top: 3rem;
+    padding: .7rem 4rem;
+    background: -webkit-linear-gradient(-170deg, var(--color-main), var(--color-black-text));
+    text-transform: uppercase;
+    color: var(--color-white-text);
+    font-family: var(--font-montserrat);
+    border: 0;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:active {
+      transform: scale(0.95);
+      box-shadow: inset 0 0 .3rem rgba(0, 0, 0, 0.16);
+    }
+  }
+
+
+  button.Renew {
+    display: inline-block;
+    margin-top: 3rem;
+    padding: .7rem 4rem;
+    background: #000000;
+    text-transform: uppercase;
+    color: var(--color-white-text);
+    font-family: var(--font-montserrat);
+    border: 0;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-left: 1rem;
+
+    &:active {
+      transform: scale(0.95);
+      box-shadow: inset 0 0 .3rem rgba(0, 0, 0, 0.16);
+    }
+
+  }
+}
+
+:global(.ARABIC) {
+  .MySubscription {
+    position: relative;
+    margin-bottom: 4rem;
+    width: 100%;
+    background-color: var(--color-white-background);
+    border: 1px solid var(--color-dashboard-border);
+    padding: 2rem 4rem;
+
+    &:before {
+      content: attr(data-title);
+      position: absolute;
+      top: -1rem;
+      right: .5rem;
+      left: initial;
+      font-family: var(--font-cairo);
+      font-weight: 400;
+      background: -webkit-linear-gradient(-170deg, var(--color-main), var(--color-black-text));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+      font-size: 20px;
+      transform: rotate(45deg) translate(2rem, -2rem);
+    }
+
+
+    button.Packages {
+      display: inline-block;
+      margin-top: 3rem;
+      padding: .7rem 4rem;
+      background: -webkit-linear-gradient(-170deg, var(--color-main), var(--color-black-text));
+      text-transform: uppercase;
+      color: var(--color-white-text);
+      font-family: var(--font-montserrat);
+      border: 0;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      &:active {
+        transform: scale(0.95);
+        box-shadow: inset 0 0 .3rem rgba(0, 0, 0, 0.16);
+      }
+    }
+
+
+    button.Renew {
+      display: inline-block;
+      margin-top: 3rem;
+      padding: .7rem 4rem;
+      background: #000000;
+      text-transform: uppercase;
+      color: var(--color-white-text);
+      font-family: var(--font-montserrat);
+      border: 0;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      margin-left: initial;
+      margin-right: 1rem;
+
+      &:active {
+        transform: scale(0.95);
+        box-shadow: inset 0 0 .3rem rgba(0, 0, 0, 0.16);
+      }
+
+    }
+  }
+}

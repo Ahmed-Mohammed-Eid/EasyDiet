@@ -1,0 +1,68 @@
+.DoctorCard{
+  position: relative;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 2.5rem;
+  border: 1px solid var(--color-dashboard-border);
+  overflow: hidden;
+
+  & > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .Overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000035;
+
+    .Top{
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+      position: absolute;
+      top: .5rem;
+      right: .5rem;
+      z-index: 2;
+
+      button{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        border: 1px solid var(--color-dashboard-border);
+        transition: all 0.1s ease-in-out;
+        cursor: pointer;
+
+        &:active{
+          transform: scale(0.95);
+          box-shadow: inset 0 0 0.5rem rgba(0, 0, 0, 0.16);
+        }
+      }
+    }
+
+    .Bottom{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 75%;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 25%;
+      background-color: #00000080;
+      color: var(--color-white-text);
+      z-index: 3;
+
+      h4{
+        font-weight: 400;
+      }
+    }
+  }
+}

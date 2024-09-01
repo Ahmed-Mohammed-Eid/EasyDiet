@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_459" data-name="Rectangle 459" width="24" height="24" transform="translate(0 -1.781)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#a71523"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_459" data-name="Group 459" transform="translate(0 1.781)" clip-path="url(#clip-path)">
+    <path id="SelectedMeals_Icon" d="M1348.58,2314.94l10.92,4.95a1.166,1.166,0,0,0,1,0l10.92-4.95a1.054,1.054,0,0,0,0-1.88l-10.92-4.95a1.19,1.19,0,0,0-1,0l-10.92,4.95A1.054,1.054,0,0,0,1348.58,2314.94Zm22.84,4.14-2.72-1.24-7.58,3.44a2.733,2.733,0,0,1-2.24,0l-7.57-3.44-2.73,1.24a1.046,1.046,0,0,0,0,1.87l10.92,4.95a1.166,1.166,0,0,0,1,0l10.92-4.95A1.046,1.046,0,0,0,1371.42,2319.08Zm0,5.99-2.71-1.23-7.59,3.44a2.733,2.733,0,0,1-2.24,0l-7.59-3.44-2.71,1.23a1.046,1.046,0,0,0,0,1.87l10.92,4.95a1.166,1.166,0,0,0,1,0l10.92-4.95A1.046,1.046,0,0,0,1371.42,2325.07Z" transform="translate(-1348 -2312.888)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

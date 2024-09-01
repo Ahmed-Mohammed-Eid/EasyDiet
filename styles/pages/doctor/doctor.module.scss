@@ -1,0 +1,788 @@
+.Doctor {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  min-height: calc(100vh - 14rem);
+  max-height: calc(100vh - 14rem);
+  background-color: var(--color-white-background);
+  border-radius: .5rem;
+}
+
+.Clients {
+  width: 35rem;
+  border: 1px solid var(--color-dashboard-border);
+  max-height: calc(100vh - 14rem);
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  /* Set the width and color of the scrollbar */
+  &::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    background-color: #f5f5f5;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--color-main);
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+  }
+
+  /* Set the width and color of the scrollbar for Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-main) #f5f5f5;
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--color-main);
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+  }
+
+
+  .Client {
+    position: relative;
+    cursor: pointer;
+
+    &_Container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 1rem;
+      padding: 1.5rem;
+      background-color: var(--color-white-background);
+
+      &:hover {
+        background-color: #F6F5F5;
+      }
+
+    }
+
+    &_Image {
+      border-radius: 50%;
+      overflow: hidden;
+      width: 5rem;
+      height: 5rem;
+
+      img {
+        border-radius: 50%;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+    &_Info {
+      h3 {
+        font-size: 1.8rem;
+        font-family: var(--font-montserrat);
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+
+      p {
+        color: var(--color-gray-666);
+        font-size: 1.4rem;
+      }
+    }
+
+    &_Unread {
+      position: absolute;
+      top: 50%;
+      right: 1.5rem;
+      transform: translate(0, -50%);
+      background-color: var(--color-deactivate);
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+    }
+  }
+}
+
+.Chat {
+  width: calc(100% - 35rem);
+  border: 1px solid var(--color-dashboard-border);
+  border-left: 0;
+
+  .Top {
+    background-color: var(--color-white-background);
+    box-shadow: 0 0 .3rem rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid var(--color-dashboard-border);;
+
+    .Client {
+      position: relative;
+      cursor: pointer;
+
+      &_Container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        padding: 2.5rem 3rem;
+        background-color: var(--color-white-background);
+      }
+
+      &_Image {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 5rem;
+        height: 5rem;
+
+        img {
+          border-radius: 50%;
+          max-width: 100%;
+          max-height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+
+      &_Info {
+        h3 {
+          font-size: 1.8rem;
+          font-family: var(--font-montserrat);
+          font-weight: 500;
+          text-transform: uppercase;
+        }
+
+        p {
+          color: var(--color-gray-666);
+          font-size: 1.4rem;
+        }
+      }
+    }
+
+  }
+
+  .Bottom {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 10rem);
+    background-color: var(--color-page-background);
+    padding: 1rem;
+
+    .Questions {
+      width: 100%;
+      height: calc(100% - 15rem);
+      overflow-y: auto;
+      overflow-x: hidden;
+
+      /* Set the width and color of the scrollbar */
+      &::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+        background-color: #f5f5f5;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: var(--color-main);
+        border-radius: 10px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background-color: #f5f5f5;
+        border-radius: 10px;
+      }
+
+      /* Set the width and color of the scrollbar for Firefox */
+      scrollbar-width: thin;
+      scrollbar-color: var(--color-main) #f5f5f5;
+
+      &::-webkit-scrollbar-thumb {
+        background-color: var(--color-main);
+        border-radius: 10px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background-color: #f5f5f5;
+        border-radius: 10px;
+      }
+
+      h3 {
+        font-family: var(--font-roboto);
+        font-weight: 500;
+        font-size: 1.8rem;
+        background: -webkit-linear-gradient(170deg, var(--color-main), var(--color-black-text));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+
+      h4 {
+        font-weight: 500;
+        font-size: 1.6rem;
+        text-transform: capitalize;
+      }
+
+      h5 {
+        font-family: var(--font-roboto);
+        font-weight: 500;
+        background: -webkit-linear-gradient(170deg, var(--color-main), var(--color-black-text));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+
+        & ~ a {
+          padding: .5rem 1.5rem;
+          background-color: rgba(222, 222, 222, 0.5);
+          border: 1px solid var(--color-dashboard-border);
+          display: block;
+          color: var(--color-gray-333);
+          margin-bottom: .5rem;
+          font-size: 1.4rem;
+          text-decoration: none;
+        }
+      }
+
+      h4 + time + p {
+        font-size: 1.4rem;
+        text-transform: capitalize;
+        color: var(--color-gray-333);
+      }
+
+      h4 + time {
+        font-size: 1.3rem;
+        color: var(--color-gray-999);
+        display: block;
+        margin-bottom: .5rem;
+      }
+
+      .Current_Question {
+        margin-top: 1rem;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        background-color: var(--color-white-background);
+        border: 1px solid var(--color-dashboard-border);
+
+        //box-shadow: 0 0 .3rem rgba(0, 0, 0, 0.1);
+      }
+
+      .Previous_Questions {
+        margin-top: 1rem;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        background-color: var(--color-white-background);
+        border: 1px solid var(--color-dashboard-border);
+
+        //box-shadow: 0 0 .3rem rgba(0, 0, 0, 0.1);
+      }
+
+      .Previous_Questions__container {
+      }
+
+      .Previous_Question {
+        margin-bottom: 5rem;
+      }
+    }
+
+    .Sender {
+
+
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 1rem;
+        width: 100%;
+        height: 15rem;
+      }
+
+      .Input_Container {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        &:nth-child(1) {
+          .Input_Group {
+            width: 50%;
+          }
+        }
+      }
+
+      .Input_Group {
+        position: relative;
+        width: 100%;
+
+        input {
+          padding: 1.5rem 2rem;
+          width: 100%;
+          border: 0;
+          box-shadow: inset 0 0 .3rem rgba(0, 0, 0, 0.1);
+          background: transparent;
+          border-radius: .3rem;
+          font-family: var(--font-roboto);
+          color: var(--color-gray-333);
+        }
+
+        textarea {
+          padding: 1.5rem 2rem;
+          width: 100%;
+          height: 7.5rem;
+          resize: none;
+          border: 0;
+          box-shadow: inset 0 0 .3rem rgba(0, 0, 0, 0.1);
+          background: transparent;
+          border-radius: .3rem;
+          font-family: var(--font-roboto);
+          color: var(--color-gray-333);
+          outline: 1px solid var(--color);
+
+          &:focus {
+            border: 1px solid #954ade;
+          }
+        }
+
+        & > span {
+          position: absolute;
+          top: 50%;
+          right: 1rem;
+          font-size: 1.4rem;
+          padding: .7rem;
+          background-color: var(--color-white-background);
+          border-radius: .7rem;
+          transform: translateY(-50%);
+          border: 1px solid var(--color-dashboard-border);
+
+          span {
+            background: -webkit-linear-gradient(170deg, var(--color-main), var(--color-black-text));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+          }
+        }
+
+        & > button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 1rem;
+          position: absolute;
+          top: 50%;
+          right: 1rem;
+          font-size: 1.4rem;
+          padding: .7rem 1.5rem;
+          background-color: var(--color-white-background);
+          border-radius: .7rem;
+          transform: translateY(-50%);
+          border: 1px solid var(--color-dashboard-border);
+          cursor: pointer;
+          transition: transform .15s ease-in-out;
+
+          &:active {
+            transform: translateY(-50%) scale(0.95);
+          }
+        }
+      }
+    }
+  }
+}
+
+:global(.ARABIC) {
+  .Doctor {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    min-height: calc(100vh - 14rem);
+    max-height: calc(100vh - 14rem);
+    background-color: var(--color-white-background);
+    border-radius: .5rem;
+  }
+
+  .Clients {
+    width: 35rem;
+    border: 1px solid var(--color-dashboard-border);
+    max-height: calc(100vh - 14rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    /* Set the width and color of the scrollbar */
+    &::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+      background-color: #f5f5f5;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--color-main);
+      border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: #f5f5f5;
+      border-radius: 10px;
+    }
+
+    /* Set the width and color of the scrollbar for Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-main) #f5f5f5;
+
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--color-main);
+      border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: #f5f5f5;
+      border-radius: 10px;
+    }
+
+
+    .Client {
+      position: relative;
+      cursor: pointer;
+
+      &_Container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        padding: 1.5rem;
+        background-color: var(--color-white-background);
+
+        &:hover {
+          background-color: #F6F5F5;
+        }
+
+      }
+
+      &_Image {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 5rem;
+        height: 5rem;
+
+        img {
+          border-radius: 50%;
+          max-width: 100%;
+          max-height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+
+      &_Info {
+        h3 {
+          font-size: 1.8rem;
+          font-family: var(--font-cairo);
+          font-weight: 500;
+          text-transform: uppercase;
+        }
+
+        p {
+          color: var(--color-gray-666);
+          font-size: 1.4rem;
+        }
+      }
+
+      &_Unread {
+        position: absolute;
+        top: 50%;
+        left: 1.5rem;
+        right: initial;
+        transform: translate(0, -50%);
+        background-color: var(--color-deactivate);
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .Chat {
+    width: calc(100% - 35rem);
+    border: 1px solid var(--color-dashboard-border);
+    border-right: 0;
+
+    .Top {
+      background-color: var(--color-white-background);
+      //box-shadow: 0 0 .3rem rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid var(--color-dashboard-border);
+
+      .Client {
+        position: relative;
+        cursor: pointer;
+
+        &_Container {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 1rem;
+          padding: 2.5rem 3rem;
+          background-color: var(--color-white-background);
+        }
+
+        &_Image {
+          border-radius: 50%;
+          overflow: hidden;
+          width: 5rem;
+          height: 5rem;
+
+          img {
+            border-radius: 50%;
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+
+        &_Info {
+          h3 {
+            font-size: 1.8rem;
+            font-family: var(--font-cairo);
+            font-weight: 500;
+            text-transform: uppercase;
+          }
+
+          p {
+            color: var(--color-gray-666);
+            font-size: 1.4rem;
+          }
+        }
+      }
+
+    }
+
+    .Bottom {
+      display: flex;
+      flex-direction: column;
+      height: calc(100% - 10rem);
+      background-color: var(--color-page-background);
+      padding: 1.5rem;
+
+      .Questions {
+        width: 100%;
+        height: calc(100% - 15rem);
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        /* Set the width and color of the scrollbar */
+        &::-webkit-scrollbar {
+          width: 4px;
+          height: 4px;
+          background-color: #f5f5f5;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background-color: var(--color-main);
+          border-radius: 10px;
+        }
+
+        &::-webkit-scrollbar-track {
+          background-color: #f5f5f5;
+          border-radius: 10px;
+        }
+
+        /* Set the width and color of the scrollbar for Firefox */
+        scrollbar-width: thin;
+        scrollbar-color: var(--color-main) #f5f5f5;
+
+        &::-webkit-scrollbar-thumb {
+          background-color: var(--color-main);
+          border-radius: 10px;
+        }
+
+        &::-webkit-scrollbar-track {
+          background-color: #f5f5f5;
+          border-radius: 10px;
+        }
+
+        h3 {
+          font-family: var(--font-cairo);
+          font-weight: 500;
+          font-size: 1.8rem;
+          background: -webkit-linear-gradient(-170deg, var(--color-main), var(--color-black-text));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          display: inline-block;
+          text-transform: uppercase;
+          margin-bottom: 1rem;
+        }
+
+        h4 {
+          font-weight: 500;
+          font-size: 1.6rem;
+          text-transform: capitalize;
+        }
+
+        h5 {
+          font-family: var(--font-cairo);
+          font-weight: 500;
+          background: -webkit-linear-gradient(-170deg, var(--color-main), var(--color-black-text));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          display: inline-block;
+          text-transform: uppercase;
+          margin-bottom: 1rem;
+          margin-top: 1rem;
+
+          & ~ a {
+            padding: .5rem 1.5rem;
+            background-color: rgba(222, 222, 222, 0.5);
+            border: 1px solid var(--color-dashboard-border);
+            display: block;
+            color: var(--color-gray-333);
+            margin-bottom: .5rem;
+            font-size: 1.4rem;
+            text-decoration: none;
+          }
+        }
+
+        h4 + time + p {
+          font-size: 1.4rem;
+          text-transform: capitalize;
+          color: var(--color-gray-333);
+        }
+
+        h4 + time {
+          font-size: 1.3rem;
+          color: var(--color-gray-999);
+          display: block;
+          margin-bottom: .5rem;
+        }
+
+        .Current_Question {
+          margin-top: 1rem;
+          padding: 1.5rem;
+          border-radius: 1rem;
+          background-color: var(--color-white-background);
+          border: 1px solid var(--color-dashboard-border);
+
+          //box-shadow: 0 0 .3rem rgba(0, 0, 0, 0.1);
+        }
+
+        .Previous_Questions {
+          margin-top: 1rem;
+          padding: 1.5rem;
+          border-radius: 1rem;
+          background-color: var(--color-white-background);
+          border: 1px solid var(--color-dashboard-border);
+
+          //box-shadow: 0 0 .3rem rgba(0, 0, 0, 0.1);
+        }
+
+        .Previous_Questions__container {
+        }
+
+        .Previous_Question {
+          margin-bottom: 2rem;
+        }
+      }
+
+      .Sender {
+
+
+        form {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          gap: 1rem;
+          width: 100%;
+          height: 15rem;
+        }
+
+        .Input_Container {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+
+          &:nth-child(1) {
+            .Input_Group {
+              width: 50%;
+            }
+          }
+        }
+
+        .Input_Group {
+          position: relative;
+          width: 100%;
+
+          input {
+            padding: 1.5rem 2rem;
+            width: 100%;
+            border: 0;
+            box-shadow: inset 0 0 .3rem rgba(0, 0, 0, 0.1);
+            background: transparent;
+            border-radius: .3rem;
+            font-family: var(--font-roboto);
+            color: var(--color-gray-333);
+          }
+
+          textarea {
+            padding: 1.5rem 2rem;
+            width: 100%;
+            height: 7.5rem;
+            resize: none;
+            border: 0;
+            box-shadow: inset 0 0 .3rem rgba(0, 0, 0, 0.1);
+            background: transparent;
+            border-radius: .3rem;
+            font-family: var(--font-roboto);
+            color: var(--color-gray-333);
+            outline: 1px solid var(--color);
+
+            &:focus {
+              border: 1px solid #954ade;
+            }
+          }
+
+          & > span {
+            position: absolute;
+            top: 50%;
+            left: 1rem;
+            right: initial;
+            font-size: 1.4rem;
+            padding: .7rem;
+            background-color: var(--color-white-background);
+            border-radius: .7rem;
+            transform: translateY(-50%);
+            border: 1px solid var(--color-dashboard-border);
+
+            span {
+              background: -webkit-linear-gradient(-170deg, var(--color-main), var(--color-black-text));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              display: inline-block;
+            }
+          }
+
+          & > button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            position: absolute;
+            top: 50%;
+            left: 1rem;
+            right: initial;
+            font-size: 1.4rem;
+            padding: .7rem 1.5rem;
+            background-color: var(--color-white-background);
+            border-radius: .7rem;
+            transform: translateY(-50%);
+            border: 1px solid var(--color-dashboard-border);
+            cursor: pointer;
+            transition: transform .15s ease-in-out;
+
+            &:active {
+              transform: translateY(-50%) scale(0.95);
+            }
+          }
+        }
+      }
+    }
+  }
+}

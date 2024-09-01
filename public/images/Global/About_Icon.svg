@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#a71523"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_446" data-name="Rectangle 446" width="26" height="26" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="About_Icon" clip-path="url(#clip-path)">
+    <path id="Path_1105" data-name="Path 1105" d="M1624.968,2176.38a12.589,12.589,0,1,0,12.588,12.589A12.585,12.585,0,0,0,1624.968,2176.38Zm0,5.579a2.134,2.134,0,1,1-2.134,2.134A2.131,2.131,0,0,1,1624.968,2181.959Zm2.838,12.9a.606.606,0,0,1-.607.607h-4.464a.606.606,0,0,1-.607-.607v-1.224a.606.606,0,0,1,.607-.607h.607v-3.25h-.607a.606.606,0,0,1-.607-.607v-1.224a.606.606,0,0,1,.607-.607h3.25a.606.606,0,0,1,.607.607v5.081h.607a.606.606,0,0,1,.607.607Z" transform="translate(-1611.969 -2175.968)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

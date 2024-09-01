@@ -1,0 +1,21 @@
+{
+  "filter": "تصفية",
+  "breakfast": "إفطار",
+  "lunch": "غداء",
+  "dinner": "عشاء",
+  "snacks": "وجبات خفيفة",
+  "all": "الكل",
+  "back": "رجوع",
+  "selected": "الوجبات المختارة",
+  "reset": "إعادة الاختيار",
+  "availableMeals": "الوجبات المتاحة",
+  "availableSnacks": "الوجبات الخفيفة",
+  "button": "التالي",
+  "selectedMeals": "الوجبات المحددة",
+  "noMeals": "لم يتم اختيار وجبات",
+  "protein": "بروتين",
+  "carbohydrate": "كربوهيدرات",
+  "fat": "دهون",
+  "calories": "سعرات",
+  "gram": "جرام"
+}

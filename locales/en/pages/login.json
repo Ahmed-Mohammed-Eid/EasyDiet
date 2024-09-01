@@ -1,0 +1,8 @@
+{
+  "title": "LOGIN",
+  "placeholder1": "USERNAME || EMAIL",
+  "placeholder2": "PASSWORD",
+  "button": "LOGIN",
+  "link1": "have no account? register",
+  "link2": "Forgot Password"
+}

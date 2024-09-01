@@ -1,0 +1,17 @@
+{
+  "home": "home",
+  "bundles": "bundles",
+  "menu": "menu",
+  "about": "about",
+  "profile": "profile",
+  "mySubscription": "my subscription",
+  "NutritionSpecialist": "Nutrition specialist",
+  "dashboard": "dashboard",
+  "packages": "packages",
+  "meals": "meals",
+  "users": "users",
+  "branchManager": "branch Manager",
+  "defaultMeals": "Default Meals",
+  "reports": "reports",
+  "logout": "logout"
+}

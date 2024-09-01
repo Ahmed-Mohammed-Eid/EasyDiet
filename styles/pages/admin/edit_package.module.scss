@@ -1,0 +1,528 @@
+.Main{
+    height: calc(100vh - 14rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+
+
+    .FormContainer{
+        width: 100%;
+        max-width: 100rem;
+        padding: 4rem 5rem;
+        background-color: var(--color-white-background);
+        border: 1px solid var(--color-dashboard-border);
+        border-radius: .5rem;
+
+        h1{
+            font-family: var(--font-montserrat);
+            font-size: 3rem;
+            font-weight: 300;
+            text-transform: uppercase;
+            display: inline-block;
+            background: linear-gradient(270deg, var(--color-black-text), var(--color-main)) border-box;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h1 + p{
+            font-size: 1.4rem;
+            color: var(--color-gray-777);
+            margin-bottom: 3rem;
+        }
+    }
+
+    form{
+        .Image_Uploader {
+            width: 100%;
+            margin-bottom: 2rem;
+
+            label {
+                display: flex;
+                justify-content: space-between;
+                padding: 1rem 1rem 1rem 2rem;
+                width: 100%;
+                text-transform: uppercase;
+                color: var(--color-gray-999);
+                background-color: var(--color-uploader-background);
+                border: 1px solid var(--color-uploader-border);
+                border-radius: 3px;
+                cursor: pointer;
+
+                .Static {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                }
+
+                .ImagePreviewer {
+                    width: 8rem;
+                    height: 5rem;
+                    object-fit: cover;
+                    background-color: transparent;
+                    border: 1px solid var(--color-uploader-border);
+                    border-radius: 5px;
+                    overflow: hidden;
+                }
+            }
+
+            input {
+                display: none;
+            }
+        }
+
+        .InputsContainer{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+
+            .MultiSelect > div {
+                width: 100%;
+            }
+        }
+
+        .NavigationContainer{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            width: 100%;
+            gap: 1rem;
+        }
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            color: var(--color-white-text);
+            text-transform: uppercase;
+            background-image: linear-gradient(135deg, var(--color-black-text), var(--color-main));
+            padding: 1rem 2.5rem;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: transform 0.1s ease-in-out;
+
+            &:active {
+                transform: scale(0.95);
+            }
+
+            &.SelectMeals{
+                background-color: transparent;
+                background-image: initial;
+                color: var(--color-gray-333);
+                border: 1px solid var(--color-gray-333);
+            }
+        }
+    }
+
+    .InputGroup{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: calc(50% - .5rem);
+        margin-bottom: 3rem;
+
+        label{
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            color: var(--color-black-text);
+            margin-bottom: .5rem;
+        }
+
+        input{
+            padding: 1.2rem 1.2rem;
+            color: var(--color-gray-444);
+            border: 1px solid var(--color-dashboard-border);
+            border-radius: 3px;
+            width: 100%;
+        }
+
+
+        .checkboxRow {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            gap: 10px;
+        }
+
+        .checkbox {
+            position: relative;
+            display: inline-block;
+            font-size: 16px;
+            text-transform: capitalize;
+            line-height: 20px;
+            cursor: pointer;
+            padding-left: 2rem;
+        }
+
+        input[type="checkbox"] {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 18px;
+            width: 18px;
+            background-color: #fff;
+            border: 2px solid #954ade;
+            border-radius: 3px;
+            transition: all 0.2s ease-in-out;
+        }
+
+        input[type="checkbox"]:checked ~ .checkmark:after {
+            content: "";
+            position: absolute;
+            display: block;
+            left: 50%;
+            top: 50%;
+            width: 7px;
+            height: 12px;
+            border: solid #954ade;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg) translate(-100%, -24%);
+            transform-origin: center;
+        }
+
+        .checkbox:hover .checkmark {
+            border-color: #954ade;
+        }
+
+    }
+
+    // TOGGLER
+    .togglerInput {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+
+        .toggler {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 24px;
+
+            input {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                z-index: 99;
+                cursor: pointer;
+
+                &:checked + .slider {
+                    background-color: var(--color-active);
+                }
+
+                &:focus + .slider {
+                    box-shadow: 0 0 1px var(--color-active);
+                }
+            }
+
+            .slider {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #ccc;
+                transition: 0.4s;
+                border-radius: 34px;
+
+                &:before {
+                    position: absolute;
+                    content: "";
+                    height: 16px;
+                    width: 16px;
+                    left: 4px;
+                    bottom: 4px;
+                    background-color: white;
+                    transition: 0.4s;
+                    border-radius: 50%;
+                }
+            }
+
+            input:checked + .slider:before {
+                transform: translateX(26px);
+            }
+        }
+    }
+}
+
+:global(.ARABIC){
+    .Main{
+        height: calc(100vh - 14rem);
+        overflow-y: auto;
+        overflow-x: hidden;
+
+
+        .FormContainer{
+            width: 100%;
+            max-width: 100rem;
+            padding: 4rem 5rem;
+            background-color: var(--color-white-background);
+            border: 1px solid var(--color-dashboard-border);
+            border-radius: .5rem;
+
+            h1{
+                font-family: var(--font-cairo);
+                font-size: 3rem;
+                font-weight: 300;
+                text-transform: uppercase;
+                display: inline-block;
+                background: linear-gradient(-270deg, var(--color-black-text), var(--color-main)) border-box;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            h1 + p{
+                font-size: 1.4rem;
+                color: var(--color-gray-777);
+                margin-bottom: 3rem;
+            }
+        }
+
+        form{
+            .Image_Uploader {
+                width: 100%;
+                margin-bottom: 2rem;
+
+                label {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 1rem 1rem 1rem 2rem;
+                    width: 100%;
+                    text-transform: uppercase;
+                    color: var(--color-gray-999);
+                    background-color: var(--color-uploader-background);
+                    border: 1px solid var(--color-uploader-border);
+                    border-radius: 3px;
+                    cursor: pointer;
+
+                    .Static {
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+                    }
+
+                    .ImagePreviewer {
+                        width: 8rem;
+                        height: 5rem;
+                        object-fit: cover;
+                        background-color: transparent;
+                        border: 1px solid var(--color-uploader-border);
+                        border-radius: 5px;
+                        overflow: hidden;
+                    }
+                }
+
+                input {
+                    display: none;
+                }
+            }
+
+            .InputsContainer{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 1rem;
+
+                .MultiSelect > div {
+                    width: 100%;
+                }
+            }
+
+            .NavigationContainer{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                width: 100%;
+                gap: 1rem;
+            }
+
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                color: var(--color-white-text);
+                font-family: var(--font-almarai);
+                text-transform: uppercase;
+                background-image: linear-gradient(-135deg, var(--color-black-text), var(--color-main));
+                padding: 1rem 2.5rem;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                transition: transform 0.1s ease-in-out;
+
+                &:active {
+                    transform: scale(0.95);
+                }
+
+                &.SelectMeals{
+                    background-color: transparent;
+                    background-image: initial;
+                    color: var(--color-gray-333);
+                    border: 1px solid var(--color-gray-333);
+                }
+            }
+        }
+
+        .InputGroup{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: calc(50% - .5rem);
+            margin-bottom: 3rem;
+
+            label{
+                font-size: 1.4rem;
+                text-transform: uppercase;
+                color: var(--color-black-text);
+                margin-bottom: .5rem;
+            }
+
+            input{
+                padding: 1.2rem 1.2rem;
+                color: var(--color-gray-444);
+                border: 1px solid var(--color-dashboard-border);
+                border-radius: 3px;
+                width: 100%;
+            }
+
+
+            .checkboxRow {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                width: 100%;
+                gap: 10px;
+            }
+
+            .checkbox {
+                position: relative;
+                display: inline-block;
+                font-size: 16px;
+                text-transform: capitalize;
+                line-height: 20px;
+                cursor: pointer;
+                padding-right: 2rem;
+            }
+
+            input[type="checkbox"] {
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+                height: 0;
+                width: 0;
+            }
+
+            .checkmark {
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 18px;
+                width: 18px;
+                background-color: #fff;
+                border: 2px solid #954ade;
+                border-radius: 3px;
+                transition: all 0.2s ease-in-out;
+            }
+
+            input[type="checkbox"]:checked ~ .checkmark:after {
+                content: "";
+                position: absolute;
+                display: block;
+                right: 50%;
+                top: 50%;
+                width: 7px;
+                height: 12px;
+                border: solid #954ade;
+                border-width: 0 0 2px 2px;
+                transform: rotate(-45deg) translate(100%, -24%);
+                transform-origin: center;
+            }
+
+            .checkbox:hover .checkmark {
+                border-color: #954ade;
+            }
+
+        }
+
+        // TOGGLER
+        .togglerInput {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+
+            .toggler {
+                position: relative;
+                display: inline-block;
+                width: 50px;
+                height: 24px;
+
+                input {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0;
+                    z-index: 99;
+                    cursor: pointer;
+
+                    &:checked + .slider {
+                        background-color: var(--color-active);
+                    }
+
+                    &:focus + .slider {
+                        box-shadow: 0 0 1px var(--color-active);
+                    }
+                }
+
+                .slider {
+                    position: absolute;
+                    cursor: pointer;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                    bottom: 0;
+                    background-color: #ccc;
+                    transition: 0.4s;
+                    border-radius: 34px;
+
+                    &:before {
+                        position: absolute;
+                        content: "";
+                        height: 16px;
+                        width: 16px;
+                        right: 4px;
+                        bottom: 4px;
+                        background-color: white;
+                        transition: 0.4s;
+                        border-radius: 50%;
+                    }
+                }
+
+                input:checked + .slider:before {
+                    transform: translateX(-26px);
+                }
+            }
+        }
+    }
+}

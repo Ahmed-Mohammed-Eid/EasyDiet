@@ -1,0 +1,10 @@
+{
+  "currentQuestion": "الاستفسار الحالي",
+  "previousQuestion": "الاستفسارات السابقة",
+  "attachments": "الملفات",
+  "height": "الطول",
+  "heightUnit": "سم",
+  "weight": "الوزن",
+  "weightUnit": "كجم",
+  "message": "قم بكتابة رسالة..."
+}

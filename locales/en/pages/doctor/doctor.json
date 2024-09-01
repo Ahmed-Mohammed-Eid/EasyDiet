@@ -1,0 +1,10 @@
+{
+  "currentQuestion": "QUESTION OF CLIENT",
+  "previousQuestion": "PREVIOUS QUESTIONS",
+  "attachments": "ATTACHMENTS",
+  "height": "HEIGHT",
+  "heightUnit": "CM",
+  "weight": "WEIGHT",
+  "weightUnit": "KG",
+  "message": "Type your message..."
+}

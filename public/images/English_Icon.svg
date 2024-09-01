@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="16" viewBox="0 0 22 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_683" data-name="Rectangle 683" width="22" height="16" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_682" data-name="Rectangle 682" width="22" height="16" rx="2" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="English_Icon" clip-path="url(#clip-path)">
+    <g id="Group_681" data-name="Group 681" clip-path="url(#clip-path-2)">
+      <rect id="Rectangle_681" data-name="Rectangle 681" width="22" height="16" rx="2" fill="#1a47b8"/>
+      <path id="Path_1609" data-name="Path 1609" d="M2.34,0H0V2.667L19.647,16H22V13.333Z" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_1610" data-name="Path 1610" d="M.781,0,22,14.438V16h-.762L0,1.547V0Z" fill="#f93939"/>
+      <path id="Path_1611" data-name="Path 1611" d="M19.9,0H22V2.667S8.391,11.55,2.1,16H0V13.333Z" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_1612" data-name="Path 1612" d="M22,0h-.711L0,14.45V16H.781L22,1.559Z" fill="#f93939"/>
+      <path id="Path_1613" data-name="Path 1613" d="M8,0h6.017V4.935H22v6.126H14.018V16H8V11.061H0V4.935H8Z" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_1614" data-name="Path 1614" d="M9.263,0h3.474V6.154H22V9.846H12.737V16H9.263V9.846H0V6.154H9.263Z" fill="#f93939" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

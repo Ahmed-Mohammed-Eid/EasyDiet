@@ -1,0 +1,179 @@
+.Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 14rem);
+
+    .FormContainer {
+        width: 100%;
+        max-width: 100rem;
+        padding: 4rem 5rem;
+        background-color: var(--color-white-background);
+        border: 1px solid var(--color-dashboard-border);
+        border-radius: .5rem;
+
+        h1 {
+            font-family: var(--font-montserrat);
+            font-size: 3rem;
+            font-weight: 300;
+            text-transform: uppercase;
+            display: inline-block;
+            background: linear-gradient(270deg, var(--color-black-text), var(--color-main)) border-box;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 3rem;
+        }
+    }
+
+    form {
+        .InputsContainer {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+
+            .MultiSelect{
+                width: 100% !important;
+            }
+
+            .MultiSelect > div{
+                width: 100%;
+            }
+        }
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            color: var(--color-white-text);
+            text-transform: uppercase;
+            background-image: linear-gradient(135deg, var(--color-black-text), var(--color-main));
+            padding: 1rem 2.5rem;
+            margin-left: auto;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: transform 0.1s ease-in-out;
+
+            &:active {
+                transform: scale(0.95);
+            }
+        }
+    }
+
+    .InputGroup {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: calc(50% - .5rem);
+        margin-bottom: 3rem;
+
+        label {
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            color: var(--color-black-text);
+            margin-bottom: .5rem;
+        }
+
+        input {
+            padding: 1.2rem 1.2rem;
+            color: var(--color-gray-444);
+            border: 1px solid var(--color-dashboard-border);
+            border-radius: 3px;
+            width: 100%;
+        }
+    }
+}
+
+:global(.ARABIC){
+    .Main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 14rem);
+
+        .FormContainer {
+            width: 100%;
+            max-width: 100rem;
+            padding: 4rem 5rem;
+            background-color: var(--color-white-background);
+            border: 1px solid var(--color-dashboard-border);
+            border-radius: .5rem;
+
+            h1 {
+                font-family: var(--font-cairo);
+                font-size: 3rem;
+                font-weight: 300;
+                text-transform: uppercase;
+                display: inline-block;
+                background: linear-gradient(-270deg, var(--color-black-text), var(--color-main)) border-box;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                margin-bottom: 3rem;
+            }
+        }
+
+        form {
+            .InputsContainer {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 1rem;
+
+                .MultiSelect{
+                    width: 100% !important;
+                }
+
+                .MultiSelect > div{
+                    width: 100%;
+                }
+            }
+
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                color: var(--color-white-text);
+                font-family: var(--font-almarai);
+                text-transform: uppercase;
+                background-image: linear-gradient(-135deg, var(--color-black-text), var(--color-main));
+                padding: 1rem 2.5rem;
+                margin-right: auto;
+                margin-left: initial;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                transition: transform 0.1s ease-in-out;
+
+                &:active {
+                    transform: scale(0.95);
+                }
+            }
+        }
+
+        .InputGroup {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: calc(50% - .5rem);
+            margin-bottom: 3rem;
+
+            label {
+                font-size: 1.4rem;
+                text-transform: uppercase;
+                color: var(--color-black-text);
+                margin-bottom: .5rem;
+            }
+
+            input {
+                padding: 1.2rem 1.2rem;
+                color: var(--color-gray-444);
+                border: 1px solid var(--color-dashboard-border);
+                border-radius: 3px;
+                width: 100%;
+            }
+        }
+    }
+}

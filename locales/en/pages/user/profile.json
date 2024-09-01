@@ -1,0 +1,14 @@
+{
+  "title": "PROFILE",
+  "firstName": "FIRST NAME",
+  "lastName": "LAST NAME",
+  "phoneNumber": "PHONE NUMBER",
+  "region": "REGION",
+  "street": "BLOCK",
+  "house": "STREET",
+  "floor": "HOUSE",
+  "apartment": "FLOOR",
+  "apartmentNumber": "APARTMENT",
+  "statusButton": "STATUS",
+  "updateButton": "UPDATE"
+}

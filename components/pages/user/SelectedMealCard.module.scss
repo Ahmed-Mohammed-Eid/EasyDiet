@@ -1,0 +1,63 @@
+.SelectedMeal {
+  width: 25rem;
+  height: 20rem;
+
+  .Top {
+    position: relative;
+    width: 100%;
+    height: 18rem;
+
+    .Image {
+      width: 100%;
+      height: 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+    button{
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translate(50%, -50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 4rem;
+      height: 4rem;
+      background-color: var(--color-white-background);
+      border-radius: 50%;
+      border: 1px solid var(--color-dashboard-border);
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+
+      &:active{
+        transform: translate(50%, -50%) scale(0.95);
+        box-shadow: inset 0 0 .5rem rgba(0, 0, 0, 0.16);
+      }
+    }
+  }
+
+  .Bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1rem;
+    padding: .5rem;
+
+    h3{
+      font-size: 1.6rem;
+      font-weight: 400;
+      width: 20rem;
+    }
+
+    span{
+      font-size: 1.8rem;
+      font-weight: 500;
+    }
+  }
+}

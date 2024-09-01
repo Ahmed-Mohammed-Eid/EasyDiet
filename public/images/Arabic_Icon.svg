@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="25.455" viewBox="0 0 35 25.455">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_453" data-name="Rectangle 453" width="35" height="25.455" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_452" data-name="Rectangle 452" width="35" height="25.455" rx="2" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Arabic_Icon" clip-path="url(#clip-path)">
+    <g id="Group_454" data-name="Group 454" clip-path="url(#clip-path-2)">
+      <rect id="Rectangle_451" data-name="Rectangle 451" width="35" height="25.455" rx="2" fill="#fff"/>
+      <path id="Path_1562" data-name="Path 1562" d="M0,11H35v7.955H0Z" transform="translate(0 6.5)" fill="#f93939" fill-rule="evenodd"/>
+      <path id="Path_1563" data-name="Path 1563" d="M0,0H35V7.955H0Z" fill="#249f58" fill-rule="evenodd"/>
+      <path id="Path_1564" data-name="Path 1564" d="M0,25.455V0L12.727,8.466v8.466Z" fill="#151515" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

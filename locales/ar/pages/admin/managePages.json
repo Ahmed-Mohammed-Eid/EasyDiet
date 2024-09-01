@@ -1,0 +1,18 @@
+{
+  "createPackage": "إنشاء باقة",
+  "createMeal": "إنشاء وجبة",
+  "createClient": "إنشاء عميل",
+  "createEmployee": "إنشاء موظف",
+  "clients": "العملاء",
+  "employees": "الموظفين",
+  "edit": "تعديل",
+  "deactivate": "الغاء تفعيل",
+  "activate": "تفعيل",
+  "delete": "حذف",
+  "freeze": "تجميد",
+  "unfreeze": "الغاء التجميد",
+  "fullName": "الاسم بالكامل: (إنجليزي)",
+  "saveBtn": "حفظ",
+  "GOVERNORATE": "المحافظة",
+  "REGION": "المنطقة"
+}

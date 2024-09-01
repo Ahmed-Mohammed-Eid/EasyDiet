@@ -1,0 +1,29 @@
+.Ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1rem 1rem 1rem;
+    border-top: 1px solid #e6e6e6;
+
+    .Item {
+        position: relative;
+        list-style: none;
+        font-size: 1.3rem;
+        padding: 0 .75rem;
+
+        &::before {
+            position: absolute;
+            content: "";
+            display: inline-block;
+            width: .6rem;
+            height: .6rem;
+            left: -.3rem;
+            top: 54%;
+            transform: translateY(-50%);
+            background-color: currentColor;
+            border-radius: 50%;
+            margin-right: .5rem;
+        }
+    }
+}
+

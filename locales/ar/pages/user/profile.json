@@ -1,0 +1,14 @@
+{
+  "title": "الصفحة الشخصية",
+  "firstName": "الاسم الأول",
+  "lastName": "الاسم الأخير",
+  "phoneNumber": "رقم الهاتف",
+  "region": "المنطقة",
+  "street": "قطعة",
+  "house": "الشارع",
+  "floor": "المنزل",
+  "apartment": "الطابق",
+  "apartmentNumber": "رقم الشقة",
+  "statusButton": "الحالة",
+  "updateButton": "تحديث"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "CREATE PACKAGE",
+  "name": "PACKAGE NAME (ARABIC)",
+  "nameEn": "PACKAGE NAME (ENGLISH)",
+  "textOnCard": "TEXT ON CARD (ARABIC)",
+  "textOnCardEn": "TEXT ON CARD (ENGLISH)",
+  "timeReal": "PACKAGE TIME (REAL)",
+  "price": "PACKAGE PRICE (NUMBER)",
+  "numberOfMeals": "NUMBER OF MEALS (NUMBER)",
+  "numberOfSnacks": "SNACKS MEALS (NUMBER)",
+  "offer": "OFFERS DAYS (NUMBER)",
+  "fridays": "INCLUDE FRIDAYS",
+  "breakfast": "Breakfast",
+  "lunch": "Lunch",
+  "dinner": "Dinner",
+  "create": "CREATE",
+  "select": "SELECT MEALS",
+  "arabic": "ARABIC",
+  "english": "ENGLISH",
+  "confirm": "CONFIRM",
+  "uploadMaleImage": "UPLOAD MALE IMAGE",
+  "uploadFemaleImage": "UPLOAD FEMALE IMAGE"
+}

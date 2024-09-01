@@ -1,0 +1,16 @@
+{
+  "title": "EASY DEIT",
+  "paragraph": "EasyDiet Healthy Meals welcomes you, where we've been providing delicious and healthy meal options for over 5 years. Our experienced chefs use fresh, locally sourced ingredients to create a diverse menu of meals that are perfect for anyone looking to maintain a healthy lifestyle.",
+  "button": "Packages",
+  "menuButton": "Menu",
+  "aboutTitle": "About Us",
+  "login": "Profile",
+  "welcome": "Welcome",
+  "message1": "You have subscribed in",
+  "message2": "package, your subscription starts at",
+  "message3": "and ends at",
+  "message4": "You can see your package details by clicking on the button below.",
+  "buttonUser": "Select Meals",
+  "youAreNotSubscribed": "You are not subscribed to any package yet. you can subscribe to a package by clicking on the button below. but please make sure to read the website's",
+  "terms": "Terms and Conditions before subscribing."
+}

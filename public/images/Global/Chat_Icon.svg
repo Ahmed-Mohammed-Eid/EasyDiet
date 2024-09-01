@@ -1,0 +1,11 @@
+<svg id="Chat_Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="33.042" viewBox="0 0 33 33.042">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2d264b"/>
+      <stop offset="1" stop-color="#a71523"/>
+    </linearGradient>
+  </defs>
+  <g id="Message_21" data-name="Message 21" transform="translate(0)">
+    <path id="Vector" d="M31.037,23.349a2.719,2.719,0,0,0-.2,1.717c.025.167.083.387.2.827a10.49,10.49,0,0,1,.5,2.46,3.3,3.3,0,0,1-3.179,3.179,10.492,10.492,0,0,1-2.461-.5c-.44-.114-.66-.171-.828-.2a2.734,2.734,0,0,0-1.727.2c-.158.063-.481.234-1.126.574-6.279,3.312-13.626.307-17.379-3.446A16.5,16.5,0,0,1,28.17,4.833c3.6,3.6,6.732,11.075,3.442,17.377-.342.654-.512.981-.575,1.138ZM9.666,14.617a1.65,1.65,0,1,0,1.65,1.65A1.65,1.65,0,0,0,9.666,14.617Zm6.6,0a1.65,1.65,0,1,0,1.65,1.65A1.65,1.65,0,0,0,16.267,14.617Zm6.6,3.3a1.65,1.65,0,1,0-1.65-1.65A1.65,1.65,0,0,0,22.868,17.917Z" transform="translate(0 0)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "title": "إنشاء عميل",
+  "fullName": "الأسم بالكامل",
+  "mobile": "الهاتف",
+  "package": "الباقة",
+  "gender": "النوع",
+  "email": "البريد الالكتروني",
+  "password": "كلمة المرور",
+  "governorate": "المحافظة",
+  "region": "المنطقة",
+  "street": "قطعة",
+  "house": "الشارع",
+  "floor": "المنزل",
+  "apartment": "الطابق",
+  "apartmentNumber": "رقم الشقة",
+  "payment": "تم الدفع",
+  "button": "إنشاء"
+}

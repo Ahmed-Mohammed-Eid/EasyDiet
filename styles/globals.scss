@@ -1,0 +1,80 @@
+//IMPORT FONTS
+@import "fonts";
+
+// VARIABLES
+:root{
+  --color-main: #A71523;
+  --color-black-background: #000000;
+  --color-black-text: #000000;
+  --color-white-background: #ffffff;
+  --color-white-text: #ffffff;
+  --color-page-background: #FBFBFB;
+  --color-active: #4DE2A1;
+  --color-inactive: #EC4F4F;
+  --color-deactivate: #E46C03;
+  --color-freeze: #0ca5e7;
+  // TEXT GRAY
+  --color-gray-222: #222222;
+  --color-gray-333: #333333;
+  --color-gray-444: #444444;
+  --color-gray-555: #555555;
+  --color-gray-666: #666666;
+  --color-gray-777: #777777;
+  --color-gray-888: #888888;
+  --color-gray-999: #999999;
+  --color-input-border: #e7e7e7;
+  --color-dashboard-border: #EEEEEE;
+  --color-select-background: #eeeeee;
+  --color-gray-text: #DBDBDB;
+  --color-uploader-background: #EFEEEE;
+  --color-uploader-border: #CCCCCC;
+
+  // FONTS
+  --font-roboto: 'roboto';
+  --font-montserrat: 'montserrat';
+  --font-freehouse: 'freehouse';
+  --font-cairo: 'cairo';
+  --font-almarai: 'almarai';
+}
+
+// RESET THE STYLES
+*,
+*:after,
+*:before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input:focus{
+  outline: none;
+  border: 1px solid #954ade;
+}
+
+input::placeholder{
+  color: var(--color-gray-999);
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+  font-family: var(--font-roboto);
+  background-color: var(--color-page-background);
+}
+
+body.ARABIC{
+  font-family: var(--font-almarai);
+  p{
+    line-height: 1.1;
+  }
+}
+
+
+// HELPERS
+.Colored{
+  color: var(--color-main);
+  margin: 0 .5rem;
+}

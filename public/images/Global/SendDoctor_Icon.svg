@@ -1,0 +1,14 @@
+<svg id="SendDoctor_Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2d264b"/>
+      <stop offset="1" stop-color="#a71523"/>
+    </linearGradient>
+  </defs>
+  <g id="Send_2" data-name="Send 2">
+    <path id="Vector" d="M22.7,18.244A6.537,6.537,0,1,1,10,15.224.177.177,0,0,0,9.776,15,6.537,6.537,0,1,1,6.756,2.3L18.184.106a5.734,5.734,0,0,1,6.711,6.711Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    <path id="Vector-2" data-name="Vector" d="M1.28,15.841A.75.75,0,1,1,.22,14.78l1.414-1.414a.75.75,0,1,1,1.061,1.061Z" transform="translate(0 3.551)" fill="url(#linear-gradient)"/>
+    <path id="Vector-3" data-name="Vector" d="M6.23,14.073a.75.75,0,0,1,0,1.061L4.816,16.548a.75.75,0,0,1-1.061-1.061l1.414-1.414a.75.75,0,0,1,1.061,0Z" transform="translate(0.955 3.742)" fill="url(#linear-gradient)"/>
+    <path id="Vector-4" data-name="Vector" d="M5.523,20.084a.75.75,0,1,1-1.061-1.061l1.414-1.414A.75.75,0,0,1,6.937,18.67Z" transform="translate(1.146 4.697)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

@@ -1,0 +1,98 @@
+.loaderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+}
+
+.loader-background {
+  fill: none;
+  stroke: #e6e6e6;
+  stroke-width: 6;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.5s ease-in-out;
+}
+
+.loader-progress {
+  fill: none;
+  stroke: url(#gradient);
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-dashoffset: 0;
+  transition: stroke-dasharray 0.5s ease-in-out;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.text {
+  font-size: 1.2rem;
+  font-weight: inherit;
+  color: #222222;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    stop-color: #0077ff;
+  }
+  50% {
+    stop-color: #3cb9af;
+  }
+  100% {
+    stop-color: #954ade;
+  }
+}
+
+@-webkit-keyframes gradientAnimation {
+  0% {
+    stop-color: #0077ff;
+  }
+  50% {
+    stop-color: #3cb9af;
+  }
+  100% {
+    stop-color: #954ade;
+  }
+}
+
+@-moz-keyframes gradientAnimation {
+  0% {
+    stop-color: #0077ff;
+  }
+  50% {
+    stop-color: #3cb9af;
+  }
+  100% {
+    stop-color: #954ade;
+  }
+}
+
+@-o-keyframes gradientAnimation {
+  0% {
+    stop-color: #0077ff;
+  }
+  50% {
+    stop-color: #3cb9af;
+  }
+  100% {
+    stop-color: #954ade;
+  }
+}

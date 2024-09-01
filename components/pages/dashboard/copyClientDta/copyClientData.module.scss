@@ -1,0 +1,212 @@
+.Model {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s ease-in-out;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 4rem;
+  width: 100%;
+  max-width: 60rem;
+  z-index: 100;
+
+  .Header {
+    margin-bottom: 2rem;
+    text-align: center;
+
+    h2 {
+      font-family: var(--font-montserrat);
+      font-size: 3rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      display: inline-block;
+      background: linear-gradient(270deg, var(--color-black-text), var(--color-main)) border-box;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .InputContainer {
+    display: flex;
+    flex-direction: column;
+
+    .Input {
+      margin-bottom: 1rem;
+
+      label {
+        display: block;
+        font-size: 1.4rem;
+        color: var(--color-black-text);
+        margin-bottom: 0.5rem;
+      }
+
+      .InputGroup {
+        position: relative;
+        //display: flex;
+        //align-items: center;
+
+        input {
+          padding: 1.2rem 5rem 1.2rem 1rem;
+          color: var(--color-gray-444);
+          border: 1px solid var(--color-dashboard-border);
+          border-radius: 3px;
+          width: 100%;
+        }
+
+        button {
+          position: absolute;
+          top: 50%;
+          right: .5rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 1rem;
+          font-family: var(--font-roboto);
+          padding: .5rem 1rem;
+          background-color: #0070f3;
+          border: none;
+          color: white;
+          border-radius: 3px;
+          cursor: pointer;
+          transition: all 0.15s ease-in-out;
+          transform: translateY(-50%);
+
+          &:active{
+            transform: translateY(-50%) scale(0.95);
+          }
+        }
+      }
+    }
+  }
+
+  .Close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-white-text);
+    text-transform: uppercase;
+    background-image: linear-gradient(135deg, var(--color-black-text), var(--color-main));
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+    margin-top: 2rem;
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}
+
+:global(.ARABIC){
+  .Model {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: initial;
+    transform: translate(50%, -50%);
+    transition: transform 0.2s ease-in-out;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 4rem;
+    width: 100%;
+    max-width: 60rem;
+    z-index: 100;
+
+    .Header {
+      margin-bottom: 2rem;
+      text-align: center;
+
+      h2 {
+        font-family: var(--font-montserrat);
+        font-size: 3rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        display: inline-block;
+        background: linear-gradient(-270deg, var(--color-black-text), var(--color-main)) border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 3rem;
+      }
+    }
+
+    .InputContainer {
+      display: flex;
+      flex-direction: column;
+
+      .Input {
+        margin-bottom: 1rem;
+
+        label {
+          display: block;
+          font-size: 1.4rem;
+          color: var(--color-black-text);
+          margin-bottom: 0.5rem;
+        }
+
+        .InputGroup {
+          position: relative;
+          //display: flex;
+          //align-items: center;
+
+          input {
+            padding: 1.2rem 1rem 1.2rem 5rem;
+            color: var(--color-gray-444);
+            border: 1px solid var(--color-dashboard-border);
+            border-radius: 3px;
+            width: 100%;
+          }
+
+          button {
+            position: absolute;
+            top: 50%;
+            left: .5rem;
+            right: initial;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            font-family: var(--font-roboto);
+            padding: .5rem 1rem;
+            background-color: #0070f3;
+            border: none;
+            color: white;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: all 0.15s ease-in-out;
+            transform: translateY(-50%);
+
+            &:active{
+              transform: translateY(-50%) scale(0.95);
+            }
+          }
+        }
+      }
+    }
+
+    .Close{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      color: var(--color-white-text);
+      text-transform: uppercase;
+      background-image: linear-gradient(-135deg, var(--color-black-text), var(--color-main));
+      padding: 1rem 2.5rem;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: transform 0.1s ease-in-out;
+      margin-top: 2rem;
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+  }
+
+}

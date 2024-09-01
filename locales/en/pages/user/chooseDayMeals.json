@@ -1,0 +1,21 @@
+{
+  "filter": "FILTER",
+  "breakfast": "BREAKFAST",
+  "lunch": "LUNCH",
+  "dinner": "DINNER",
+  "snacks": "SNACKS",
+  "all": "ALL",
+  "back": "BACK",
+  "selected": "SELECTED",
+  "reset": "RESET",
+  "availableMeals": "Available Meals",
+  "availableSnacks": "Available Snacks",
+  "button": "CONFIRM",
+  "selectedMeals": "SELECTED MEALS",
+  "noMeals": "No Meals Yet",
+  "protein": "PROTEIN",
+  "carbohydrate": "CARBOHYDRATE",
+  "fat": "FAT",
+  "calories": "CALORIES",
+  "gram": "g"
+}

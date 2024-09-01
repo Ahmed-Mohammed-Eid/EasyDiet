@@ -1,0 +1,18 @@
+{
+  "createPackage": "CREATE PACKAGE",
+  "createMeal": "CREATE MEAL",
+  "createClient": "CREATE CLIENT",
+  "createEmployee": "CREATE EMPLOYEE",
+  "clients": "CLIENTS",
+  "employees": "EMPLOYEES",
+  "edit": "Edit",
+  "deactivate": "Deactivate",
+  "activate": "Activate",
+  "delete": "Delete",
+  "freeze": "Freeze",
+  "unfreeze": "Unfreeze",
+  "fullName": "FULL NAME: (ENGLISH)",
+  "saveBtn": "Save",
+  "GOVERNORATE": "GOVERNORATE",
+  "REGION": "REGION"
+}

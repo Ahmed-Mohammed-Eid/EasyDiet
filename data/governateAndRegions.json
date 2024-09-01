@@ -1,0 +1,592 @@
+[
+  {
+    "S.No": 1,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Kuwait City",
+    "Arabic": "مدينة الكويت"
+  },
+  {
+    "S.No": 2,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Dasma",
+    "Arabic": "الدسمة"
+  },
+  {
+    "S.No": 3,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Da'iya",
+    "Arabic": "الدعية"
+  },
+  {
+    "S.No": 4,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Bneid il-Gār",
+    "Arabic": "بنيد القار"
+  },
+  {
+    "S.No": 5,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Keifan",
+    "Arabic": "كيفان"
+  },
+  {
+    "S.No": 6,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Mansūriya",
+    "Arabic": "المنصورية"
+  },
+  {
+    "S.No": 7,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Abdullah as-Salim suburb",
+    "Arabic": "ضاحية عبد الله السالم"
+  },
+  {
+    "S.No": 8,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Nuzha",
+    "Arabic": "النزهة"
+  },
+  {
+    "S.No": 9,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Faiha'",
+    "Arabic": "الفيحاء"
+  },
+  {
+    "S.No": 10,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Shamiya",
+    "Arabic": "الشامية"
+  },
+  {
+    "S.No": 11,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Rawda",
+    "Arabic": "الروضة"
+  },
+  {
+    "S.No": 12,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Adiliya",
+    "Arabic": "النزهة"
+  },
+  {
+    "S.No": 13,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Khaldiya",
+    "Arabic": "الخالدية"
+  },
+  {
+    "S.No": 14,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Qadsiya",
+    "Arabic": "القادسية"
+  },
+  {
+    "S.No": 15,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Qurtuba",
+    "Arabic": "قرطبة"
+  },
+  {
+    "S.No": 16,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Surra",
+    "Arabic": "السرة"
+  },
+  {
+    "S.No": 17,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Yarmūk",
+    "Arabic": "اليرموك"
+  },
+  {
+    "S.No": 18,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Shuwaikh",
+    "Arabic": "الشويخ السكنية"
+  },
+  {
+    "S.No": 19,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Rai",
+    "Arabic": "الري"
+  },
+  {
+    "S.No": 20,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Ghirnata",
+    "Arabic": "غرناطة"
+  },
+  {
+    "S.No": 21,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Sulaibikhat",
+    "Arabic": "الصليبخات"
+  },
+  {
+    "S.No": 22,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Doha",
+    "Arabic": "الدوحة"
+  },
+  {
+    "S.No": 23,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Nahdha",
+    "Arabic": "النهضة"
+  },
+  {
+    "S.No": 24,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Jabir al-Ahmad City",
+    "Arabic": "مدينة جابر الأحمد"
+  },
+  {
+    "S.No": 25,
+    "المحافظة": "العاصمة",
+    "Governorate": "Capital",
+    "English": "Qairawān",
+    "Arabic": "القيروان"
+  },
+
+
+  {
+    "S.No": 26,
+    "المحافظة": "حولي",
+    "Governorate": "Hawalli",
+    "English": "Hawally",
+    "Arabic": "حولي"
+  },
+  {
+    "S.No": 27,
+    "المحافظة": "حولي",
+    "Governorate": "Hawalli",
+    "English": "Rumaithiya",
+    "Arabic": "الرميثية"
+  },
+  {
+    "S.No": 28,
+    "المحافظة": "حولي",
+    "Governorate": "Hawalli",
+    "English": "Jabriya",
+    "Arabic": "الجابرية"
+  },
+  {
+    "S.No": 29,
+    "المحافظة": "حولي",
+    "Governorate": "Hawalli",
+    "English": "Salmiya",
+    "Arabic": "السالمية"
+  },
+  {
+    "S.No": 30,
+    "المحافظة": "حولي",
+    "Governorate": "Hawalli",
+    "English": "Mishrif",
+    "Arabic": "مشرف"
+  },
+  {
+    "S.No": 31,
+    "المحافظة": "حولي",
+    "Governorate": "Hawalli",
+    "English": "Sha'ab",
+    "Arabic": "الشعب"
+  },
+  {
+    "S.No": 32,
+    "المحافظة": "حولي",
+    "Governorate": "Hawalli",
+    "English": "Bayān",
+    "Arabic": "بيان"
+  },
+  {
+    "S.No": 33,
+    "المحافظة": "حولي",
+    "Governorate": "Hawalli",
+    "English": "Bi'di'",
+    "Arabic": "البدع"
+  },
+  {
+    "S.No": 34,
+    "المحافظة": "حولي",
+    "Governorate": "Hawalli",
+    "English": "Nigra",
+    "Arabic": "النقرة"
+  },
+  {
+    "S.No": 35,
+    "المحافظة": "حولي",
+    "Governorate": "Hawalli",
+    "English": "Salwa",
+    "Arabic": "سلوى"
+  },
+  {
+    "S.No": 36,
+    "المحافظة": "حولي",
+    "Governorate": "Hawalli",
+    "English": "Maidan Hawalli",
+    "Arabic": "ميدان حولي"
+  },
+  {
+    "S.No": 37,
+    "المحافظة": "حولي",
+    "Governorate": "Hawalli",
+    "English": "Mubarak aj-Jabir suburb",
+    "Arabic": "ضاحية مبارك الجابر"
+  },
+  {
+    "S.No": 38,
+    "المحافظة": "حولي",
+    "Governorate": "Hawalli",
+    "English": "South Surra",
+    "Arabic": "جنوب السرة"
+  },
+  {
+    "S.No": 39,
+    "المحافظة": "حولي",
+    "Governorate": "Hawalli",
+    "English": "Hittin",
+    "Arabic": "حطين"
+  },
+  {
+    "S.No": 40,
+    "المحافظة": "مبارك الكبير",
+    "Governorate": "Mubarak al-Kabeer",
+    "English": "Mubarak al-Kabeer",
+    "Arabic": "مبارك الكبير"
+  },
+  {
+    "S.No": 41,
+    "المحافظة": "مبارك الكبير",
+    "Governorate": "Mubarak al-Kabeer",
+    "English": "Adān",
+    "Arabic": "العدان"
+  },
+  {
+    "S.No": 42,
+    "المحافظة": "مبارك الكبير",
+    "Governorate": "Mubarak al-Kabeer",
+    "English": "Qurain",
+    "Arabic": "القرين"
+  },
+  {
+    "S.No": 43,
+    "المحافظة": "مبارك الكبير",
+    "Governorate": "Mubarak al-Kabeer",
+    "English": "Qusūr",
+    "Arabic": "القصور"
+  },
+  {
+    "S.No": 44,
+    "المحافظة": "مبارك الكبير",
+    "Governorate": "Mubarak al-Kabeer",
+    "English": "Sabah as-Salim suburb",
+    "Arabic": "ضاحية صباح السالم"
+  },
+  {
+    "S.No": 45,
+    "المحافظة": "مبارك الكبير",
+    "Governorate": "Mubarak al-Kabeer",
+    "English": "Misīla",
+    "Arabic": "المسيلة"
+  },
+  {
+    "S.No": 46,
+    "المحافظة": "مبارك الكبير",
+    "Governorate": "Mubarak al-Kabeer",
+    "English": "Abu 'Fteira",
+    "Arabic": "أبو فطيرة"
+  },
+  {
+    "S.No": 47,
+    "المحافظة": "مبارك الكبير",
+    "Governorate": "Mubarak al-Kabeer",
+    "English": "Sabhān",
+    "Arabic": "صبحان"
+  },
+  {
+    "S.No": 48,
+    "المحافظة": "مبارك الكبير",
+    "Governorate": "Mubarak al-Kabeer",
+    "English": "Fintās",
+    "Arabic": "الفنطاس"
+  },
+  {
+    "S.No": 49,
+    "المحافظة": "مبارك الكبير",
+    "Governorate": "Mubarak al-Kabeer",
+    "English": "Funaitīs",
+    "Arabic": "الفنيطيس"
+  },
+  {
+    "S.No": 50,
+    "المحافظة": "الاحمدي",
+    "Governorate": "Ahmadi",
+    "English": "Ahmadi",
+    "Arabic": "الأحمدي"
+  },
+  {
+    "S.No": 51,
+    "المحافظة": "الاحمدي",
+    "Governorate": "Ahmadi",
+    "English": "Aqila",
+    "Arabic": "العقيلة"
+  },
+  {
+    "S.No": 52,
+    "المحافظة": "الاحمدي",
+    "Governorate": "Ahmadi",
+    "English": "Zuhar",
+    "Arabic": "الظهر"
+  },
+  {
+    "S.No": 53,
+    "المحافظة": "الاحمدي",
+    "Governorate": "Ahmadi",
+    "English": "Mahbula",
+    "Arabic": "المهبولة"
+  },
+  {
+    "S.No": 54,
+    "المحافظة": "الاحمدي",
+    "Governorate": "Ahmadi",
+    "English": "Rigga",
+    "Arabic": "الرقة"
+  },
+  {
+    "S.No": 55,
+    "المحافظة": "الاحمدي",
+    "Governorate": "Ahmadi",
+    "English": "Hadiya",
+    "Arabic": "هدية"
+  },
+  {
+    "S.No": 56,
+    "المحافظة": "الاحمدي",
+    "Governorate": "Ahmadi",
+    "English": "Abu Hulaifa",
+    "Arabic": "أبو حليفة"
+  },
+  {
+    "S.No": 57,
+    "المحافظة": "الاحمدي",
+    "Governorate": "Ahmadi",
+    "English": "Sabahiya",
+    "Arabic": "الصباحية"
+  },
+  {
+    "S.No": 58,
+    "المحافظة": "الاحمدي",
+    "Governorate": "Ahmadi",
+    "English": "Mangaf",
+    "Arabic": "المنقف"
+  },
+  {
+    "S.No": 59,
+    "المحافظة": "الاحمدي",
+    "Governorate": "Ahmadi",
+    "English": "Fahaheel",
+    "Arabic": "الفحيحيل"
+  },
+  {
+    "S.No": 60,
+    "المحافظة": "الاحمدي",
+    "Governorate": "Ahmadi",
+    "English": "Jabir al-Ali Suburb",
+    "Arabic": "ضاحية جابر العلي"
+  },
+  {
+    "S.No": 61,
+    "المحافظة": "الاحمدي",
+    "Governorate": "Ahmadi",
+    "English": "Fahd al-Ahmad Suburb",
+    "Arabic": "ضاحية فهد الأحمد"
+  },
+  {
+    "S.No": 62,
+    "المحافظة": "الفروانية",
+    "Governorate": "Al Farwaniyah",
+    "English": "Khaitan",
+    "Arabic": "خيطان "
+  },
+  {
+    "S.No": 63,
+    "المحافظة": "الفروانية",
+    "Governorate": "Al Farwaniyah",
+    "English": "Andalus",
+    "Arabic": "الاندلس "
+  },
+  {
+    "S.No": 64,
+    "المحافظة": "الفروانية",
+    "Governorate": "Al Farwaniyah",
+    "English": "Ashbelya",
+    "Arabic": "اشبيليا"
+  },
+  {
+    "S.No": 65,
+    "المحافظة": "الفروانية",
+    "Governorate": "Al Farwaniyah",
+    "English": "omariya",
+    "Arabic": "العمرية"
+  },
+  {
+    "S.No": 66,
+    "المحافظة": "الفروانية",
+    "Governorate": "Al Farwaniyah",
+    "English": "ardiya",
+    "Arabic": "العارضية"
+  },
+  {
+    "S.No": 67,
+    "المحافظة": "الفروانية",
+    "Governorate": "Al Farwaniyah",
+    "English": "fordous",
+    "Arabic": "االفردوس "
+  },
+  {
+    "S.No": 68,
+    "المحافظة": "الفروانية",
+    "Governorate": "Al Farwaniyah",
+    "English": "abdullah  almubarak",
+    "Arabic": "عبدالله مبارك "
+  },
+  {
+    "S.No": 69,
+    "المحافظة": "الفروانية",
+    "Governorate": "Al Farwaniyah",
+    "English": "West Abdullah Al Mubarak",
+    "Arabic": "غرب عبدالله مبارك "
+  },
+  {
+    "S.No": 70,
+    "المحافظة": "الفروانية",
+    "Governorate": "Al Farwaniyah",
+    "English": "Farwaniya",
+    "Arabic": "الفروانية"
+  },
+  {
+    "S.No": 71,
+    "المحافظة": "الفروانية",
+    "Governorate": "Al Farwaniyah",
+    "English": "Rabieh",
+    "Arabic": "الرابية"
+  },
+  {
+    "S.No": 72,
+    "المحافظة": "الفروانية",
+    "Governorate": "Al Farwaniyah",
+    "English": "Al-Rehab",
+    "Arabic": "الرحاب"
+  },
+  {
+    "S.No": 73,
+    "المحافظة": "الفروانية",
+    "Governorate": "Al Farwaniyah",
+    "English": "Al-Raqi",
+    "Arabic": "الرقعي"
+  },
+  {
+    "S.No": 74,
+    "المحافظة": "الفروانية",
+    "Governorate": "Al Farwaniyah",
+    "English": "Sabah Al-Nasser",
+    "Arabic": "صباح الناصر"
+  },
+  {
+    "S.No": 75,
+    "المحافظة": "الجهراء",
+    "Governorate": "Jahra",
+    "English": "Jahra",
+    "Arabic": "الجهراء  "
+  },
+  {
+    "S.No": 76,
+    "المحافظة": "الجهراء",
+    "Governorate": "Jahra",
+    "English": "Al Naseem",
+    "Arabic": "النسيم "
+  },
+  {
+    "S.No": 77,
+    "المحافظة": "الجهراء",
+    "Governorate": "Jahra",
+    "English": "AL WAHA",
+    "Arabic": "الواحه "
+  },
+  {
+    "S.No": 78,
+    "المحافظة": "الجهراء",
+    "Governorate": "Jahra",
+    "English": "Oyoun",
+    "Arabic": "العيون"
+  },
+  {
+    "S.No": 79,
+    "المحافظة": "الجهراء",
+    "Governorate": "Jahra",
+    "English": "Taima",
+    "Arabic": "تيماء"
+  },
+  {
+    "S.No": 80,
+    "المحافظة": "الجهراء",
+    "Governorate": "Jahra",
+    "English": "sulaibaiya",
+    "Arabic": "صليبية"
+  },
+  {
+    "S.No": 81,
+    "المحافظة": "الجهراء",
+    "Governorate": "Jahra",
+    "English": "Qasr",
+    "Arabic": "القصر "
+  },
+  {
+    "S.No": 82,
+    "المحافظة": "الجهراء",
+    "Governorate": "Jahra",
+    "English": "Naeem",
+    "Arabic": "النعيم "
+  },
+  {
+    "S.No": 83,
+    "المحافظة": "الجهراء",
+    "Governorate": "Jahra",
+    "English": "Saad Al-Abdullah",
+    "Arabic": "سعد العبدالله "
+  },
+  {
+    "S.No": 84,
+    "المحافظة": "الجهراء",
+    "Governorate": "Jahra",
+    "English": "Al Mutla",
+    "Arabic": "المطلاع"
+  }
+]

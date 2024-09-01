@@ -1,0 +1,11 @@
+{
+  "title": "CREATE EMPLOYEE",
+  "upload": "UPLOAD IMAGE",
+  "name": "EMPLOYEE NAME",
+  "role": "USER ROLE",
+  "address": "EMPLOYEE ADDRESS",
+  "phone": "MOBILE",
+  "username": "USERNAME",
+  "password": "PASSWORD",
+  "button": "CREATE"
+}

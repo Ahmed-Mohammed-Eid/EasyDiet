@@ -1,0 +1,17 @@
+{
+  "home": "الرئيسية",
+  "bundles": "الباقات",
+  "menu": "قائمة الوجبات",
+  "about": "من نحن",
+  "profile": "الصفحة الشخصية",
+  "mySubscription": "اشتراكي",
+  "NutritionSpecialist": "أخصائيي التغذية",
+  "dashboard": "لوحة التحكم",
+  "packages": "ادارة الباقات",
+  "meals": "ادارة الوجبات",
+  "users": "المستخدمين",
+  "branchManager": "مدير الفرع",
+  "defaultMeals": "الوجبات الإفتراضية",
+  "reports": "التقارير",
+  "logout": "تسجيل خروج"
+}

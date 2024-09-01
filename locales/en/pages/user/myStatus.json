@@ -1,0 +1,9 @@
+{
+  "title": "MEDICAL RECORD",
+  "height": "HEIGHT",
+  "heightUnit": "CM",
+  "weight": "WEIGHT",
+  "weightUnit": "KG",
+  "question": "QUESTION",
+  "doctorResponse": "DOCTOR RESPONSE"
+}

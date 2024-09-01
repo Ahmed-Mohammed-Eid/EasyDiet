@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  font-size: 13px;
+  width: 6rem;
+  height: 6rem;
+
+  &.active {
+    background-color: #1fd281;
+    color: white;
+  }
+}
+

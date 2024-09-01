@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.156" height="22.156" viewBox="0 0 22.156 22.156">
+  <g id="Send_Icon" transform="translate(1.014 1.142)">
+    <path id="Icon" d="M2.186,9.02C.906,8.38.267,8.06.1,7.657A1.191,1.191,0,0,1,.168,6.581c.224-.376.9-.607,2.255-1.07l14.648-5c1.18-.4,1.769-.6,2.16-.466a1.191,1.191,0,0,1,.726.726c.138.39-.064.98-.466,2.16l-5,14.648c-.462,1.354-.693,2.031-1.07,2.255a1.191,1.191,0,0,1-1.076.073c-.4-.172-.723-.811-1.363-2.091L8.333,12.519a2.515,2.515,0,0,0-.229-.408,1.191,1.191,0,0,0-.216-.216,2.515,2.515,0,0,0-.408-.229Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Icon-2" data-name="Icon" d="M6.717,10.07l9.8-9.8" transform="translate(3.21 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

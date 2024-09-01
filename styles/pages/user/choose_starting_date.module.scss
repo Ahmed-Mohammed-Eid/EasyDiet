@@ -1,0 +1,197 @@
+.Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 14rem);
+
+  .FormContainer {
+    width: 100%;
+    max-width: 100rem;
+    padding: 4rem 5rem;
+    background-color: var(--color-white-background);
+    border: 1px solid var(--color-dashboard-border);
+    border-radius: .5rem;
+
+    @media screen and (max-width: 650px) {
+      padding: 4rem 2rem;
+    }
+
+    h1 {
+      font-family: var(--font-montserrat);
+      font-size: 3rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      display: inline-block;
+      background: linear-gradient(270deg, var(--color-black-text), var(--color-main)) border-box;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 3rem;
+
+      @media screen and (max-width: 767px) {
+        font-size: 2.2rem;
+      }
+    }
+  }
+
+  form {
+
+    .InputsContainer {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      width: 100%;
+
+    }
+
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      color: var(--color-white-text);
+      text-transform: uppercase;
+      background-image: linear-gradient(135deg, var(--color-black-text), var(--color-main));
+      padding: 1rem 2.5rem;
+      margin-left: auto;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: transform 0.1s ease-in-out;
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+  }
+
+  .InputGroup {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 3rem;
+    gap: 1rem;
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+    }
+
+    & > div{
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+      width: calc(50% - .5rem);
+
+      label{
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        color: var(--color-gray-444);
+      }
+
+      @media screen and (max-width: 767px) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+:global(.ARABIC){
+  .Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 14rem);
+
+    .FormContainer {
+      width: 100%;
+      max-width: 100rem;
+      padding: 4rem 5rem;
+      background-color: var(--color-white-background);
+      border: 1px solid var(--color-dashboard-border);
+      border-radius: .5rem;
+
+      @media screen and (max-width: 650px) {
+        padding: 4rem 2rem;
+      }
+
+      h1 {
+        font-family: var(--font-cairo);
+        font-size: 3rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        display: inline-block;
+        background: linear-gradient(-270deg, var(--color-black-text), var(--color-main)) border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 3rem;
+
+        @media screen and (max-width: 767px) {
+          font-size: 2.2rem;
+        }
+      }
+    }
+
+    form {
+
+      .InputsContainer {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        width: 100%;
+
+      }
+
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        color: var(--color-white-text);
+        font-family: var(--font-almarai);
+        text-transform: uppercase;
+        background-image: linear-gradient(-135deg, var(--color-black-text), var(--color-main));
+        padding: 1rem 2.5rem;
+        margin-right: auto;
+        margin-left: initial;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: transform 0.1s ease-in-out;
+
+        &:active {
+          transform: scale(0.95);
+        }
+      }
+    }
+
+    .InputGroup {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      margin-bottom: 3rem;
+      gap: 1rem;
+
+      @media screen and (max-width: 767px) {
+        flex-direction: column;
+      }
+
+      & > div{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        width: calc(50% - .5rem);
+
+        label{
+          text-transform: uppercase;
+          font-size: 1.4rem;
+          color: var(--color-gray-444);
+        }
+
+        @media screen and (max-width: 767px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "السجل الطبي",
+  "height": "الطول",
+  "heightUnit": "سم",
+  "weight": "الوزن",
+  "weightUnit": "كجم",
+  "question": "الإستفسار",
+  "doctorResponse": "رد الأخصائي"
+}

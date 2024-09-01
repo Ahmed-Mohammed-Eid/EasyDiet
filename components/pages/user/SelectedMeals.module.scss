@@ -1,0 +1,138 @@
+.SelectedMeals{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 90rem;
+  padding: 4rem 5rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-white-background);
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease-in-out;
+  max-height: calc(100vh - 14rem);
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  @media screen and (max-width: 650px){
+    width: 90%;
+  }
+
+  &.isActive{
+    opacity: 1;
+    visibility: visible;
+  }
+
+  h2{
+    font-size: 1.8rem;
+    font-family: var(--font-freehouse);
+    display: inline-block;
+    background: -webkit-linear-gradient(170deg, var(--color-main), var(--color-black-text));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 3rem;
+  }
+
+  .Meals_Container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+}
+
+.Close{
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  padding: 1rem;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  transform: rotate(180deg);
+  background-color: rgba(236, 79, 79, 0.29);
+  border: 1px solid var(--color-dashboard-border);
+  transition: All .2s ease-in-out;
+  cursor: pointer;
+
+  &:active{
+    transform: rotate(180deg) scale(0.95);
+    box-shadow: inset 0 0 0.5rem rgba(0, 0, 0, 0.16);
+  }
+}
+
+:global(.ARABIC){
+  .SelectedMeals{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 100%;
+    max-width: 90rem;
+    padding: 4rem 5rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-white-background);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+    max-height: calc(100vh - 14rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    @media screen and (max-width: 650px){
+      width: 90%;
+    }
+
+    &.isActive{
+      opacity: 1;
+      visibility: visible;
+    }
+
+    h2{
+      font-size: 1.8rem;
+      font-family: var(--font-cairo);
+      display: inline-block;
+      background: -webkit-linear-gradient(-170deg, var(--color-main), var(--color-black-text));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 3rem;
+    }
+
+    .Meals_Container{
+      display: flex;
+      justify-content: flex-start;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+  }
+
+  .Close{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    right: initial;
+    padding: 1rem;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    transform: rotate(-180deg);
+    background-color: rgba(236, 79, 79, 0.29);
+    border: 1px solid var(--color-dashboard-border);
+    transition: All .2s ease-in-out;
+    cursor: pointer;
+
+    &:active{
+      transform: rotate(-180deg) scale(0.95);
+      box-shadow: inset 0 0 0.5rem rgba(0, 0, 0, 0.16);
+    }
+  }
+}
